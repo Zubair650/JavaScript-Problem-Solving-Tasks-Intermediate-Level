@@ -1,8 +1,8 @@
 Intermediate-level JavaScript problem-solving questions:
 
 <table>
-<thead><td>Questions</td><td>Solutions</td><thead>
-<tr><td>1. Write a function that takes an array of numbers as input and returns the sum of all the even numbers in the array.<td> <td> <a href=""> Click here</a> </td></tr>
+<thead><th>Questions</th><th>Solutions</tdh><thead>
+<tr><td>1. Write a function that takes an array of numbers as input and returns the sum of all the even numbers in the array.</td> <td> <a href=""> Click here</a> </td></tr>
 
 <tr><td>2. Write a function that takes a string as input and returns the number of vowels in the string.</td>
 <td> <a href=""> Click here</a> </td></tr>
