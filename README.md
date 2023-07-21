@@ -1,4 +1,4 @@
-<h3>Intermediate-level JavaScript problem-solving questions:<h3>
+Intermediate-level JavaScript problem-solving questions:
 
 <table>
 <thead><th>Questions</th><th>Solutions</tdh><thead>
