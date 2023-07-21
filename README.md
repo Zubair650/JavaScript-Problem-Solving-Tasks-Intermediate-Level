@@ -1,4 +1,4 @@
-Intermediate-level JavaScript problem-solving questions:
+<h3>Intermediate-level JavaScript problem-solving questions:<h3>
 
 <table>
 <thead><th>Questions</th><th>Solutions</tdh><thead>
@@ -31,4 +31,4 @@ Intermediate-level JavaScript problem-solving questions:
 <tr><td>10. Write a function that takes a sentence as input and returns the word count of the sentence.</td>
 <td> <a href=""> Click here</a> </td></tr>
 
-</table># JavaScript-Problem-Solving-Tasks-Intermediate-Level
+</table>
