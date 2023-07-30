@@ -29,6 +29,6 @@ Intermediate-level JavaScript problem-solving questions:
 <td> <a href="https://github.com/Zubair650/JavaScript-Problem-Solving-Tasks-Intermediate-Level/blob/main/Task_9.js"> Click here</a> </td></tr>
 
 <tr><td>10. Write a function that takes a sentence as input and returns the word count of the sentence.</td>
-<td> <a href="https://github.com/Zubair650/JavaScript-Problem-Solving-Tasks-Intermediate-Level/blob/main/Task_10.js"> Click here</a> </td></tr>
+<td> <a href="https://github.com/Zubair650/JavaScript-Problem-Solving-Tasks-Intermediate-Level/blob/main/Task(10).js"> Click here</a> </td></tr>
 
 </table>
