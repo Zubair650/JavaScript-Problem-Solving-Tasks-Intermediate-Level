@@ -2,31 +2,17 @@
 
 There are no constraints on the data types that can be passed to the function. For example, the value or the class could be undefined. */
 
-function checkIfInstanceOf(value, classOrSuperclass) {
-    // Check if the value is an instance of the class or superclass using instanceof
-    if (value instanceof classOrSuperclass) {
-        return true;
+function checkIfInstanceOf(obj, classFunction) {
+    if (classFunction === null || classFunction === undefined) {
+        return false;
     }
-
-    // Check if the value has access to the methods of the class or superclass
-    if (typeof value === "object" || typeof value === "function") {
-        const prototype = Object.getPrototypeOf(value);
-        if (prototype === classOrSuperclass.prototype) {
+    while (obj !== null && obj !== undefined) {
+        const proto = Object.getPrototypeOf(obj);
+        if (proto === classFunction.prototype) {
             return true;
         }
+        obj = proto;
     }
-
-
-    // Check if the value is NaN and the classOrSuperclass is Object
-    if (Number.isNaN(value) || classOrSuperclass === Object) {
-        return true;
-    }
-
-    // Check if the value has access to the methods of the class or superclass by checking the constructor property
-    if (value && value.constructor === classOrSuperclass) {
-        return true;
-    }
-
     return false;
 }
 // Example 1
